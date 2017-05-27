@@ -1,17 +1,17 @@
 class OutputService < Service
-  def log message
+  def self.log message
     puts "[LOG  ] #{message}"
   end
 
-  def info message
+  def self.info message
     puts "[INFO ] #{message}"
   end
 
-  def error message
+  def self.error message
     puts "[ERROR] #{message}"
   end
 
-  def debug message
+  def self.debug message
     puts "[DEBUG] #{message}"
   end
 
