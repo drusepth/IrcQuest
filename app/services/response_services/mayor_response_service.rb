@@ -1,0 +1,3 @@
+class MayorResponseService < ResponseService
+
+end

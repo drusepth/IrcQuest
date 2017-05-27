@@ -1,0 +1,3 @@
+class ResponseService < Service
+
+end

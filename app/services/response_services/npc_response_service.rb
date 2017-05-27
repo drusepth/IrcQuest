@@ -1,0 +1,3 @@
+class NpcResponseService < ResponseService
+
+end
